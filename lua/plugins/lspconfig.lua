@@ -64,7 +64,7 @@ lspconfig.eslint.setup({
 
 -- lua
 capabilities = vim.lsp.protocol.make_client_capabilities()
-lspconfig.sumneko_lua.setup({
+lspconfig.lua_ls.setup({
     capabilities = capabilities,
     settings = {
         Lua = {

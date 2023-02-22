@@ -15,7 +15,7 @@ set expandtab
 
 packadd! dracula
 syntax enable
+set t_Co=256
 colorscheme dracula
-
 EOF
 
